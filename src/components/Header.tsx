@@ -1,28 +1,34 @@
 import React from "react"
 
-function header() {
+interface ListItem {
+  text: string
+  link?: string
+}
+
+function ListItem({ text, link = "!" }: ListItem) {
   return (
-    <header
-      className="flex bg-black px-5 py-2 justify-center
-    "
-    >
-      <div className="max-w-5xl w-full flex
-      justify-between border-black border-solid border-2 text-indigo-50">
+    <li className="mx-3">
+      <a href={link}>{text}</a>
+    </li>
+  )
+}
+
+function Header() {
+  return (
+    <header className="flex bg-black px-5 py-2 justify-center">
+      <div
+        className="max-w-5xl w-full flex
+      justify-between border-black border-solid border-2 text-indigo-50"
+      >
         <div>🧛‍♀️🧛‍♀️🧛‍♀️🧛‍♀️🧛‍♀️</div>
         <ul className="flex text-lg">
-          <li>
-            <a href="">Introdução</a>
-          </li>
-          <li>
-            <a href=""> Desenvolvimento</a>
-          </li>
-          <li>
-            <a href="">Conclusão</a>
-          </li>
+          <ListItem text={"Introdução"} />
+          <ListItem text={"Desenvolvimento"} />
+          <ListItem text={"Conclusão"} />
         </ul>
       </div>
     </header>
   )
 }
 
-export default header
+export default Header
