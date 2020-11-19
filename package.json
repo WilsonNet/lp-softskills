@@ -36,7 +36,7 @@
     "gatsby": "2.26.1",
     "react": "17.0.1",
     "react-dom": "17.0.1",
-    "tsconfig-paths-webpack-plugin": "3.3.0"
+    "tailwindcss": "^2.0.1"
   },
   "devDependencies": {
     "@commitlint/cli": "11.0.0",
@@ -58,9 +58,11 @@
     "eslint-plugin-prettier": "3.1.4",
     "eslint-plugin-react": "7.21.5",
     "eslint-plugin-react-hooks": "4.2.0",
-    "husky": "4.3.0",
+    "gatsby-plugin-postcss": "^3.1.0",
     "lint-staged": "10.5.1",
+    "postcss": "^8.1.7",
     "prettier": "2.1.2",
+    "tsconfig-paths-webpack-plugin": "3.3.0",
     "typescript": "4.0.5"
   },
   "config": {
