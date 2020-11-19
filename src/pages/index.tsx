@@ -6,8 +6,8 @@ export default function Home() {
   return (
     <>
       <Header />
-      <div className="bg-blue-600 text-xl">Hellssso world!</div>
-      <footer>Oiii</footer>
+      <div className="">Hellssso world!</div>
+      <footer>Wilson</footer>
     </>
   )
 }
