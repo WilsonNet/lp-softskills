@@ -1,11 +1,11 @@
-import React from "react"
+import React from 'react'
 
 interface ListItem {
   text: string
   link?: string
 }
 
-function ListItem({ text, link = "!" }: ListItem) {
+function ListItem({ text, link = '!' }: ListItem) {
   return (
     <li className="mx-3">
       <a href={link}>{text}</a>
@@ -22,9 +22,12 @@ function Header() {
       >
         <div>🧛‍♀️🧛‍♀️🧛‍♀️🧛‍♀️🧛‍♀️</div>
         <ul className="flex text-lg">
-          <ListItem text={"Introdução"} />
-          <ListItem text={"Desenvolvimento"} />
-          <ListItem text={"Conclusão"} />
+          <ListItem link={'https://github.com/WilsonNet'} text={'Github'} />
+          <ListItem
+            link={'https://rocketseat.com.br/dashboard'}
+            text={'Rockeseat'}
+          />
+          <ListItem link={'https://www.linkedin.com/in/wilson-neto-943127143/'} text={'LinkedIn'} />
         </ul>
       </div>
     </header>
