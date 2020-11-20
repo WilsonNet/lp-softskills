@@ -1,5 +1,5 @@
 import React from "react"
-import "../../styles/global.css"
+import "../styles/global.css"
 import Header from "../components/Header"
 import Meat from '../components/Meat'
 
