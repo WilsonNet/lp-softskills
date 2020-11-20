@@ -5,7 +5,7 @@
 
 Landing page for Rocketseat's Expansion Week challenge: Resillience. A soft skill that is much needed in the year of 2020.
 
-Require gatsby cli: 
+Requires gatsby cli: 
 
 `npm install -g gatsby-cli`
  
