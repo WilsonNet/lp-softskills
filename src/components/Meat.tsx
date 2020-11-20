@@ -5,13 +5,13 @@ import Card from './Card'
 function Meat() {
   return (
     <main className="">
-      <section className="text-gray-200 bg-gray-900">
-        <div className="bg-hero-pattern max-w-6xl mx-auto px-5 py-24 ">
-          <div className="text-3xl mb-9">
+      <section className="text-gray-200 bg-gray-900 bg-hero-pattern bg-cover">
+        <div className="max-w-6xl mx-auto px-5 py-24 ">
+          <div className="text-6xl mb-9">
             A <em>soft skill</em> para quem viveu 2020
           </div>
           <div className="text-center mb-20">
-            <h1 className=" title-font  mb-4 text-4xl font-extrabold leading-10 tracking-tight sm:text-5xl sm:leading-none md:text-6xl">
+            <h1 className=" title-font  mb-4 text-10xl font-thin uppercase leading-10 tracking-tight sm:text-5xl sm:leading-none md:text-6xl">
               Resiliência
             </h1>
             <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
