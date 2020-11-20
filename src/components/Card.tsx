@@ -16,8 +16,8 @@ function Card({ title, content, emoji }: Card) {
             {emoji}
           </div>
           <div className="flex-grow">
-            <h2 className=" text-xl title-font font-medium mb-3">{title}</h2>
-            <p className="leading-relaxed text-sm text-justify">{content}</p>
+            <h2 className=" text-2xl title-font font-medium mb-3">{title}</h2>
+            <p className="leading-relaxed text-md text-justify">{content}</p>
           </div>
         </div>
       </div>

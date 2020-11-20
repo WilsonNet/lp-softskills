@@ -21,7 +21,7 @@ function Header() {
       justify-between border-black border-solid border-2 text-indigo-50"
       >
         <div>🧛‍♀️🧛‍♀️🧛‍♀️🧛‍♀️🧛‍♀️</div>
-        <ul className="flex text-lg">
+        <ul className="flex flex-wrap text-lg">
           <ListItem link={'https://github.com/WilsonNet'} text={'Github'} />
           <ListItem
             link={'https://rocketseat.com.br/dashboard'}

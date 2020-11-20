@@ -2,11 +2,11 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    fontSize: {
-      '10xl': '10rem',
-    },
     extend: {
-
+      fontSize: {
+        '10xl': '10rem',
+        '40xl': '40rem',
+      },
     },
   },
   variants: {
