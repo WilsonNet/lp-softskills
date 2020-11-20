@@ -16,3 +16,8 @@ To develop:
 To build: 
 
 `npm run build`
+
+To deploy to gh-pages:
+Config the pathPrefix in postcss.config.js and run `npm run deploy`.
+
+Preview the website in [https://wilsonnet.github.io/lp-softskills/](https://wilsonnet.github.io/lp-softskills/)
